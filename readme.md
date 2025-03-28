@@ -1,5 +1,5 @@
 下载的模型代码分别放在对应的模型为名的目录（如下）：
-
+```
 bge
 ├── Dockfile
 ├── api.py
@@ -41,17 +41,18 @@ bge
 │   ├── special_tokens_map.json
 │   ├── tokenizer.json
 │   └── tokenizer_config.json
-
+```
 3. 安装依赖
-
+```
 cd ./bge
 ## 执行此命令时,需切换至bge目录下
 pip install -r requirements.txt
-
+```
 
 4. 运行代码
+```
 python api.py
-
+```
 这里的 http://127.0.0.1:50001 就是请求地址。
 
 
@@ -59,6 +60,8 @@ docker 本地部署
 
 
 ## 切换至bge目录下
+```
 cd bge
 ## 先下载模型文件到当前目录,然后执行下面命令
-docker-compose up -d 
+docker-compose up -d
+```
